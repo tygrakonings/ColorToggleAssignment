@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: rgb(214, 103, 103);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.hamburgerIcon {
+  display: block;
+}
+
+.hamburgerIcon:hover {
+  opacity: 60%;
+  cursor: pointer;
+}
+
+ul li {
+  width: 250px;
+  height: 50px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ul-menu {
+  line-height: 50px;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.body-background {
+  background: white;
+}
+
+.home {
+  background: rgb(255, 178, 178);
+}
+
+.purple {
+  background: rgb(236, 159, 236);
+}
+
+.orange {
+  background: rgb(255, 211, 131);
+}
+
+.green {
+  background: rgb(167, 230, 167);
+}
+
+.blue {
+  background: rgb(213, 239, 255);
+}
